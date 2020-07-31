@@ -4,26 +4,28 @@
         
     </style>
     <head>
-        <title>World of Warcraft</title> 
+        <title>WoW - MMORPG</title> 
     </head>
     <body>
         <link rel="stylesheet" href="style.css">
 
         <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
         <header id="header">
-            <img id="header-img" src="Product_Images/wow-symbole.jpg" alt="wow-symbole" height="30px">
+            <div>
+            <img src="Product_Images/wow-symbole.jpg" alt="wow-symbole" height="30px">
             <nav id="nav-bar">
                 <a class="nav-link" href="#features">Features</a>
                 <a class="nav-link" href="#how-it-works">How It Works</a>
                 <a class="nav-link" href="#price">Price</a>
             </nav>
         </header>
+        <main>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
         <h1>WoW - MMORPG</h1>
         <input id="email" type="email" name="email" placeholder="Enter your email address" required>
         <br>
         <br>
-        <input id="submit" type="submit" value="START your LEGEND">
+        <input id="submit" type="submit" value="START your LEGEND" class="btn">
         <br>
         <br>
         <br>
@@ -49,12 +51,46 @@
         </section>
         <br>
         <section id="price">
-            <div>
-                
+            <div class="product" id="starter-edition">
+                <div class="level">Starter Edition</div>
+                <h2>12,49€</h2>
+                <ul>
+                    <li>Start: 10,000Gold</li>
+                    <li>Blizzard Account</li>
+                    <li>Free 3 Months-Playtime</li>
+                </ul>
+                <button class="btn">Select</button>
+            </div>
+            <div class="product" id="medium-pack">
+                <div class="level">Medium Pack</div>
+                <h2>24,99€</h2>
+                <ul>
+                    <li>Start: 50,000Gold</li>
+                    <li>+ 3  Expansions</li>
+                    <li>Free 6 Months-Playtime</li>
+                </ul>
+                <button class="btn">Select</button>
+            </div>
+            <div class="product" id="full-edition">
+                <div class="level">Complete Edition</div>
+                <h2>59,99€</h2>
+                <ul>
+                    <li>Start: 1,000,000€Gold</li>
+                    <li>+ 8 Expansions</li>
+                    <li>Free 1 Year-Playtime</li>
+                </ul>
+                <button class="btn">Select</button>
             </div>
         </section>
-
-
         </form>
+        </main>
+        <footer>
+            <ul>
+            <li><a href="#features">Privacy</a></li>
+            <li><a href="#features">Terms</a></li>
+            <li><a href="#features">Contact</a></li>
+            </ul>
+            <span>Copyright 2020, Original Blizzard Game</span>
+        </footer>
     </body>
 </html>
