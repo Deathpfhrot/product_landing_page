@@ -61,7 +61,7 @@ header{
     width: 30%;
     margin: 0 auto;
 }
-form{
+form {
     background-color: black;
     max-width: 1000px;
     width: 100%;
@@ -69,6 +69,7 @@ form{
     opacity: 85%;
     border-radius: 150px;
     padding: 20px;
+    display: center;
 }
 li{
     list-style: none;
@@ -78,6 +79,11 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.flexbox-container > div{
+    display: center;
+    width: 200px;
+    text-align: center;
 }
 .product{
     display: inline-flex;
@@ -169,4 +175,8 @@ footer > ul > li {
     background-color: #ddd;
     padding: 20px;
     border-radius: 20px;
+  }
+  .nav-link{
+      padding: 10px;
+      margin: 10px;
   }
